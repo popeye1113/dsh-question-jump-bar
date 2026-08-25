@@ -1,0 +1,3 @@
+# npm pack 产物，发布时重新生成
+*.tgz
+node_modules/

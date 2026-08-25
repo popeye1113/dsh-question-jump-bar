@@ -1,0 +1,6 @@
+# dsh-question-jump-bar bundle patch: inserts the question navigator rail
+# into a profile's layer stack. The browser half registers into
+# shell.overlay; the host half is a no-op placeholder so the row activates.
+- insert:
+    - id: question-jump-bar
+      name: 'dsh-question-jump-bar'
