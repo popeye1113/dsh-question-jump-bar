@@ -14,13 +14,13 @@ DSH Web 插件：会话右侧的**问题索引标尺**（Question Jump Bar）。
 
 ## 安装
 
-### 从 npm（发布后）
+### 从 npm
 
 ```sh
 dsh plugin --profile web add dsh-question-jump-bar -w
 ```
 
-### 从 GitHub（推荐）
+### 从 GitHub
 
 ```sh
 dsh plugin --profile web add github:popeye1113/dsh-question-jump-bar -w
