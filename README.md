@@ -9,7 +9,7 @@ DSH Web 插件：会话右侧的**问题索引标尺**（Question Jump Bar）。
 - 每个刻度对应一次用户提问
 - 悬停：刻度弹性放大（最近 32px → 20px → 14px），左侧浮出问题预览气泡
 - 点击：平滑滚动到该提问
-- 键盘（刻度聚焦后）：`↑↓` 逐条、`PageUp/PageDown` 翻页、`Home/End` 首尾、`Enter` 跳转
+- 键盘（点击任意刻度聚焦后）：`↑↓` 逐条、`PageUp/PageDown` 翻页、`Home/End` 首尾
 - 会话切换 / 新消息 / 滚动实时同步（MutationObserver + ResizeObserver）
 
 ## 安装
