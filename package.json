@@ -1,6 +1,6 @@
 {
   "name": "dsh-question-jump-bar",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "DSH web plugin: reasonix-style question navigator rail on the right edge of every conversation + interaction layer — select text to add to chat for follow-ups, pencil edit button on user messages to edit & resend, custom user message renderer with expandable quote cards, and composer-style edit popup.",
   "type": "module",
   "main": "lib/index.js",
