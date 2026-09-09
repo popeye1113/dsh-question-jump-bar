@@ -8,6 +8,7 @@ DSH Web 插件：会话交互增强——选中文字追问引用、消息编辑
   - CSS Module 哈希类名改为 `[class$="_actions"] / [class$="_bubble"]` 后缀匹配，不再随宿主重建失效
   - 草稿读取改走官方 `useInput()` 契约（InputState.draft），DOM 选择器仅作回退
 - **问题索引标尺已停用（v1.3.0）**：DSH 0.1.2 起官方内置「轮次导航」（TurnNavigatorRail，含悬停预览、busy 动画、未加载历史轮次跳转），本插件不再注册自己的 `shell.overlay` 标尺，避免两条右侧标尺冲突。
+- **v1.3.1 侧栏兼容**：官方轮次导航钉在会话区右缘内 12px，会被 dsh-better-sidebar 右面板的边缘/阴影盖住；本插件注入 `nav[class$="_frame"]{right:-8px}` 把官方标尺向内挪 12px（浮动窗口模式下浮窗盖到何处标尺都会隐身，属浮窗语义，无法用 CSS 规避）。
 
 ## 功能
 
